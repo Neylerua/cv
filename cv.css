@@ -1,0 +1,82 @@
+h1,h2
+{
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+}
+.bloc-qualites,bloc-experience,bloc-intérêt,ul
+{
+  text-align: center;
+}
+
+hr
+{
+  color: blue;
+  margin: 10%;
+}
+p
+{
+  font-family: 'Bellefair', serif;
+  text-align: center;
+}
+html
+{
+  background-color: lightgrey;
+}
+.profil
+{
+  display: flex;
+  border-radius:50%;
+  width: 150px;
+  height: 150px;
+  margin-left: 120px;
+  position: fixed;
+}
+.back-to-top
+{
+  background: lightgrey;
+  opacity: 0.5;
+  padding: 12px;
+  position:fixed;
+  bottom:10%;
+  right:12px;
+}
+.qualites,.experience,.interet
+{
+  color: blue;
+}
+.back-to-experience,.back-to-qualites,.back-to-interet
+{
+  display: flex;
+  flex-direction: column;
+}
+.back-to-qualites
+{
+  bottom: 10%;
+  position:fixed;
+}
+.back-to-experience
+{
+  bottom: 20%;
+  position:fixed;
+}
+.back-to-interet
+{
+  bottom: 30%;
+  position:fixed;
+}
+.cv
+{
+  text-decoration: underline;
+}
+li,.back-to-interet,.back-to-experience,.back-to-qualites
+{
+  font-family: 'Righteous', cursive;
+}
+a:link
+{
+ text-decoration:none;
+}
+a:hover
+{
+  color: purple;
+}
